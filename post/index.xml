@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Notes for Scott Eissfeldt</title>
+    <link>https://notes.eissfeldt.com/post.html</link>
+    <description>Recent content in Posts on Notes for Scott Eissfeldt</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Mon, 22 Jan 2018 20:45:25 -0800</lastBuildDate>
+    
+	<atom:link href="https://notes.eissfeldt.com/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>First Post!</title>
+      <link>https://notes.eissfeldt.com/post/new-notes-new-posts.html</link>
+      <pubDate>Mon, 22 Jan 2018 20:45:25 -0800</pubDate>
+      
+      <guid>https://notes.eissfeldt.com/post/new-notes-new-posts.html</guid>
+      <description>First Post This is the first post for notes.eissfeldt.com
+https://notes.eissfeldt.com/  My intention is to add to this blog when I do something new, when I&amp;rsquo;d like to remember something I&amp;rsquo;ve done, or I think it might be helpful to others.
+To write this blog, I&amp;rsquo;m using OSX locally on my notebook. I&amp;rsquo;m using github for my repo, and I&amp;rsquo;m publishing to a static AWS site using CloufFront and S3 buckets.</description>
+    </item>
+    
+  </channel>
+</rss>
