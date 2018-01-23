@@ -5,10 +5,64 @@
     <link>https://notes.eissfeldt.com/tags.html</link>
     <description>Recent content in Tags on Notes for Scott Eissfeldt</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 22 Jan 2018 20:45:25 -0800</lastBuildDate>
+    <lastBuildDate>Mon, 22 Jan 2018 21:11:44 -0800</lastBuildDate>
     
 	<atom:link href="https://notes.eissfeldt.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Add users</title>
+      <link>https://notes.eissfeldt.com/tags/add-users.html</link>
+      <pubDate>Mon, 22 Jan 2018 21:11:44 -0800</pubDate>
+      
+      <guid>https://notes.eissfeldt.com/tags/add-users.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ami</title>
+      <link>https://notes.eissfeldt.com/tags/ami.html</link>
+      <pubDate>Mon, 22 Jan 2018 21:20:44 -0800</pubDate>
+      
+      <guid>https://notes.eissfeldt.com/tags/ami.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Aws</title>
+      <link>https://notes.eissfeldt.com/tags/aws.html</link>
+      <pubDate>Mon, 22 Jan 2018 21:20:44 -0800</pubDate>
+      
+      <guid>https://notes.eissfeldt.com/tags/aws.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Centos</title>
+      <link>https://notes.eissfeldt.com/tags/centos.html</link>
+      <pubDate>Mon, 22 Jan 2018 21:11:44 -0800</pubDate>
+      
+      <guid>https://notes.eissfeldt.com/tags/centos.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Chef</title>
+      <link>https://notes.eissfeldt.com/tags/chef.html</link>
+      <pubDate>Mon, 22 Jan 2018 21:26:37 -0800</pubDate>
+      
+      <guid>https://notes.eissfeldt.com/tags/chef.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Chef-client</title>
+      <link>https://notes.eissfeldt.com/tags/chef-client.html</link>
+      <pubDate>Mon, 22 Jan 2018 21:26:37 -0800</pubDate>
+      
+      <guid>https://notes.eissfeldt.com/tags/chef-client.html</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Hugo</title>
@@ -25,6 +79,78 @@
       <pubDate>Mon, 22 Jan 2018 20:45:25 -0800</pubDate>
       
       <guid>https://notes.eissfeldt.com/tags/intro.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Kerberos</title>
+      <link>https://notes.eissfeldt.com/tags/kerberos.html</link>
+      <pubDate>Mon, 22 Jan 2018 21:16:52 -0800</pubDate>
+      
+      <guid>https://notes.eissfeldt.com/tags/kerberos.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Kinit test</title>
+      <link>https://notes.eissfeldt.com/tags/kinit-test.html</link>
+      <pubDate>Mon, 22 Jan 2018 21:16:52 -0800</pubDate>
+      
+      <guid>https://notes.eissfeldt.com/tags/kinit-test.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Knife</title>
+      <link>https://notes.eissfeldt.com/tags/knife.html</link>
+      <pubDate>Mon, 22 Jan 2018 21:26:37 -0800</pubDate>
+      
+      <guid>https://notes.eissfeldt.com/tags/knife.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Linux</title>
+      <link>https://notes.eissfeldt.com/tags/linux.html</link>
+      <pubDate>Mon, 22 Jan 2018 21:27:47 -0800</pubDate>
+      
+      <guid>https://notes.eissfeldt.com/tags/linux.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Log</title>
+      <link>https://notes.eissfeldt.com/tags/log.html</link>
+      <pubDate>Mon, 22 Jan 2018 21:18:51 -0800</pubDate>
+      
+      <guid>https://notes.eissfeldt.com/tags/log.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ssh</title>
+      <link>https://notes.eissfeldt.com/tags/ssh.html</link>
+      <pubDate>Mon, 22 Jan 2018 21:26:37 -0800</pubDate>
+      
+      <guid>https://notes.eissfeldt.com/tags/ssh.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Terraform</title>
+      <link>https://notes.eissfeldt.com/tags/terraform.html</link>
+      <pubDate>Mon, 22 Jan 2018 21:27:47 -0800</pubDate>
+      
+      <guid>https://notes.eissfeldt.com/tags/terraform.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Unix</title>
+      <link>https://notes.eissfeldt.com/tags/unix.html</link>
+      <pubDate>Mon, 22 Jan 2018 21:18:51 -0800</pubDate>
+      
+      <guid>https://notes.eissfeldt.com/tags/unix.html</guid>
       <description></description>
     </item>
     

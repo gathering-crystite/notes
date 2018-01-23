@@ -5,10 +5,72 @@
     <link>https://notes.eissfeldt.com/post.html</link>
     <description>Recent content in Posts on Notes for Scott Eissfeldt</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 22 Jan 2018 20:45:25 -0800</lastBuildDate>
+    <lastBuildDate>Mon, 22 Jan 2018 21:27:47 -0800</lastBuildDate>
     
 	<atom:link href="https://notes.eissfeldt.com/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Workaround for Terraform Error DBParameterGroup not found</title>
+      <link>https://notes.eissfeldt.com/post/terraform-state-rm.html</link>
+      <pubDate>Mon, 22 Jan 2018 21:27:47 -0800</pubDate>
+      
+      <guid>https://notes.eissfeldt.com/post/terraform-state-rm.html</guid>
+      <description>The terraform destroy command outputs a false error as it is not able to delete an AWS RDS MySQL DB.
+Error refreshing state: 1 error(s) occurred: * module.hortonworks.aws_db_parameter_group.hortonworks: aws_db_parameter_group.hortonworks: DBParameterGroupNotFound: DBParameterGroup not found: dsdev-105-rds-param-hortonworks status code: 404, request id: c9083eec-aadb-11e7-9855-8f67280331c5  To workaround this error, use the terraform state rm command to remove the module where terraform is showing an error.
+Fri Oct 06 14:21:18 root@M062-PDX /Users/seissfeldt/ssdc/dexcom-ansible/terraform/aws/env-main-us-dev $ terraform state rm module.</description>
+    </item>
+    
+    <item>
+      <title>Use Chef&#39;s knife ssh command to run chef-client on multiple instances</title>
+      <link>https://notes.eissfeldt.com/post/knife-ssh-command-chef-client.html</link>
+      <pubDate>Mon, 22 Jan 2018 21:26:37 -0800</pubDate>
+      
+      <guid>https://notes.eissfeldt.com/post/knife-ssh-command-chef-client.html</guid>
+      <description>Example using Chef&amp;rsquo;s knife command to run chef-client on all instances using the dev_identity.pem.
+knife ssh &amp;quot;role:*&amp;quot; &amp;quot;chef-client&amp;quot; -i ~/.ec2/dev_identity.pem  </description>
+    </item>
+    
+    <item>
+      <title>Aws Cannot Share Encrypted Volumes Across Accounts</title>
+      <link>https://notes.eissfeldt.com/post/aws-cannot-share-encrypted-volumes-across-accounts.html</link>
+      <pubDate>Mon, 22 Jan 2018 21:20:44 -0800</pubDate>
+      
+      <guid>https://notes.eissfeldt.com/post/aws-cannot-share-encrypted-volumes-across-accounts.html</guid>
+      <description>We use different AWS accounts for production and development. We also use encrypted AMI&amp;rsquo;s. Writing some ansible code, I kept erroring out on a known-good AMI. The reason was I could not share AMI across encrypted accounts.
+ You can&amp;rsquo;t copy an encrypted AMI that was shared with you from another account. Instead, if the underlying snapshot and encryption key were shared with you, you can copy the snapshot while re-encrypting it with a key of your own.</description>
+    </item>
+    
+    <item>
+      <title>Redirecting standard error into standard output from your commands in unix into log files</title>
+      <link>https://notes.eissfeldt.com/post/direct-output-to-log.html</link>
+      <pubDate>Mon, 22 Jan 2018 21:18:51 -0800</pubDate>
+      
+      <guid>https://notes.eissfeldt.com/post/direct-output-to-log.html</guid>
+      <description>Sometimes, we&amp;rsquo;re not able to view the output of standard error, or we&amp;rsquo;d like to keep this in a log file to search later. Saving the results of standard output can be useful for troublshooting issues the future.
+To do this, we can redirct standard error into standard output and save this to a log file.
+Adding &amp;ldquo;2&amp;gt;&amp;amp;1&amp;rdquo; to the end of your command will redirct the standard error into standard output.</description>
+    </item>
+    
+    <item>
+      <title>Which-Is-Kerberos-Admin-Server</title>
+      <link>https://notes.eissfeldt.com/post/which-is-kerberos-admin-server.html</link>
+      <pubDate>Mon, 22 Jan 2018 21:16:52 -0800</pubDate>
+      
+      <guid>https://notes.eissfeldt.com/post/which-is-kerberos-admin-server.html</guid>
+      <description>To see which keytab server your client is trying to authenticate, you can run these commands.
+export KRB5_TRACE=/dev/stdout kinit -k -t username.keytab username@EC2.INTERNAL -V  </description>
+    </item>
+    
+    <item>
+      <title>In Centos, add user</title>
+      <link>https://notes.eissfeldt.com/post/adding-users-in-centos.html</link>
+      <pubDate>Mon, 22 Jan 2018 21:11:44 -0800</pubDate>
+      
+      <guid>https://notes.eissfeldt.com/post/adding-users-in-centos.html</guid>
+      <description>Manual steps to add a user with sudo accecss in centos
+adduser -U -G adm,wheel username -s /bin/bash &amp;amp;&amp;amp; su -l username &amp;amp;&amp;amp; mkdir .ssh &amp;amp;&amp;amp; chmod 0700 .ssh &amp;amp;&amp;amp; cd .ssh/ vi authorized_keys ssh-rsa AAAAB3NzaThisIsFakeThisIsFakeThisIsFakeThisIsFakeThisIsFakeThisIsFakeThisIsFakeThisIsFakeThisIsFakeThisIsFakeThisIsFakeThisIsFakeThisIsFakeThisIsFakeThisIsFakeThisIsFakeThisIsFakeThisIsFakeThisIsFakeThisIsFakeThisIsFakeThisIsFakeThisIsFakeThisIsFakeThisIsFakeThisIsFakeThisIsFakeThisIsFakeThisIsFakeThisIsFakeThisIsFakeThisIsFakeThisIsFakeThisIsFakeThisIsFakeThisIsFakeThisIsFakeThisIsFakeThisIsFakeThisIsFakeThisIsFakeThisIsFakeThisIsFakeThisIsFakeThisIsFakeThisIsFakeThisIsFakeThisIsFakeThisIsFakeThisIsFakeThisIsFakeThisIsFakeThisIsFakeThisIsFakeThisIsFakeThisIsFakeThisIsFakeThisIsFakeThisIsFakeThisIsFakeThisIsFakeThisIsFakeThisIsFakeThisIsFakeThisIsFakeThisIsFakeThisIsFakeThisIsFakeThisIsFakeThisIsFakeThisIsFakeThisIsFake underthehood@grossinhere.local chmod 0600 authorized_keys  </description>
+    </item>
     
     <item>
       <title>First Post!</title>
