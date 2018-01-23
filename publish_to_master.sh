@@ -20,7 +20,7 @@ echo "Removing existing files"
 rm -rf public/*
 
 echo "Generating site"
-hugo -D server
+hugo
 
 echo "Enter public dicrectory and run git add -all"
 cd public && git add --all
