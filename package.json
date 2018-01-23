@@ -1,0 +1,21 @@
+{
+  "name": "site",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server": "hugo server -w -v",
+    "build": "hugo -v",
+    "deploy": "aws s3 sync public/ s3://notes-blog-scott/ --delete --profile scott"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gathering-crystite/notes.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gathering-crystite/notes/issues"
+  },
+  "homepage": "https://github.com/gathering-crystite/notes#readme"
+}
