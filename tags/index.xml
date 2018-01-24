@@ -38,6 +38,15 @@
     </item>
     
     <item>
+      <title>Bash</title>
+      <link>https://notes.eissfeldt.com/tags/bash.html</link>
+      <pubDate>Wed, 24 Jan 2018 11:18:55 -0800</pubDate>
+      
+      <guid>https://notes.eissfeldt.com/tags/bash.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Centos</title>
       <link>https://notes.eissfeldt.com/tags/centos.html</link>
       <pubDate>Mon, 22 Jan 2018 21:11:44 -0800</pubDate>
@@ -61,6 +70,15 @@
       <pubDate>Mon, 22 Jan 2018 21:26:37 -0800</pubDate>
       
       <guid>https://notes.eissfeldt.com/tags/chef-client.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Docker</title>
+      <link>https://notes.eissfeldt.com/tags/docker.html</link>
+      <pubDate>Wed, 24 Jan 2018 11:18:55 -0800</pubDate>
+      
+      <guid>https://notes.eissfeldt.com/tags/docker.html</guid>
       <description></description>
     </item>
     
