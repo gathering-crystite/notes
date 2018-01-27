@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Google fi on Notes for Scott Eissfeldt</title>
+    <link>https://notes.eissfeldt.com/tags/google-fi.html</link>
+    <description>Recent content in Google fi on Notes for Scott Eissfeldt</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sat, 27 Jan 2018 10:51:34 -0800</lastBuildDate>
+    
+	<atom:link href="https://notes.eissfeldt.com/tags/google-fi/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Google Fi Short Codes</title>
+      <link>https://notes.eissfeldt.com/post/google-fi-short-codes.html</link>
+      <pubDate>Sat, 27 Jan 2018 10:51:34 -0800</pubDate>
+      
+      <guid>https://notes.eissfeldt.com/post/google-fi-short-codes.html</guid>
+      <description>During a suport call with Google FI for a Pixel 2, I was told about some short codes. The codes can be used to obtain your current network information, repair a bad activation, turn on the Auto Swich feature, or connect to specific carriers.
+On the call, I used both of these codes:
+*#*#344636#*#* and *#*#34777#*#*  After a little further ressearch, these are all the codes I found more of these online.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://notes.eissfeldt.com/post/google-fi-short-codes.html</loc>
+    <lastmod>2018-01-27T10:51:34-08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://notes.eissfeldt.com/run-bash-shell-in-docker-container.html</loc>
     <lastmod>2018-01-24T11:18:55-08:00</lastmod>
   </url>
@@ -101,6 +106,12 @@
   </url>
   
   <url>
+    <loc>https://notes.eissfeldt.com/tags/google-fi.html</loc>
+    <lastmod>2018-01-27T10:51:34-08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://notes.eissfeldt.com/tags/hugo.html</loc>
     <lastmod>2018-01-22T20:45:25-08:00</lastmod>
     <priority>0</priority>
@@ -144,7 +155,7 @@
   
   <url>
     <loc>https://notes.eissfeldt.com/</loc>
-    <lastmod>2018-01-24T11:18:55-08:00</lastmod>
+    <lastmod>2018-01-27T10:51:34-08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -156,13 +167,19 @@
   
   <url>
     <loc>https://notes.eissfeldt.com/categories/others.html</loc>
-    <lastmod>2018-01-22T21:27:47-08:00</lastmod>
+    <lastmod>2018-01-27T10:51:34-08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://notes.eissfeldt.com/post.html</loc>
-    <lastmod>2018-01-22T21:27:47-08:00</lastmod>
+    <lastmod>2018-01-27T10:51:34-08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://notes.eissfeldt.com/tags/short-codes.html</loc>
+    <lastmod>2018-01-27T10:51:34-08:00</lastmod>
     <priority>0</priority>
   </url>
   
