@@ -5,10 +5,24 @@
     <link>https://notes.eissfeldt.com/tags/unix.html</link>
     <description>Recent content in Unix on Notes for Scott Eissfeldt</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 22 Jan 2018 21:18:51 -0800</lastBuildDate>
+    <lastBuildDate>Thu, 01 Feb 2018 16:40:00 -0800</lastBuildDate>
     
 	<atom:link href="https://notes.eissfeldt.com/tags/unix/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Google Cloud - Set IAM Policy with a .yml config file</title>
+      <link>https://notes.eissfeldt.com/post/set-iam-policy-gcp.html</link>
+      <pubDate>Thu, 01 Feb 2018 16:40:00 -0800</pubDate>
+      
+      <guid>https://notes.eissfeldt.com/post/set-iam-policy-gcp.html</guid>
+      <description>Pointing and clicking to setup access to services is no fun, and it does not scale. It&amp;rsquo;s more fun to create a YAML configuration file and push it with a CLI command. In this case, we&amp;rsquo;ll use gcloud.
+ gcloud projects get-iam-policy project_id
+ and
+ gcloud projects set-iam-pollicy project_id configuration.yml
+ View the policy with `gcloud projects get-iam-policy project_id&amp;rsquo;
+$ gcloud projects get-iam-policy g5-scott-2 bindings: - members: - user:someoneelse@ThisIsFake.com role: roles/owner etag: BwVjoLrKlS0= version: 1  Save that output locally to a .</description>
+    </item>
     
     <item>
       <title>Redirecting standard error into standard output from your commands in unix into log files</title>
